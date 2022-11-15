@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.truc {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.color {
+    background-color: white;
+    width: 350px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.code {
+    font-size: 3rem;
+    margin-bottom: 20px;
+} 
+
+.color button {
+    background: black;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
